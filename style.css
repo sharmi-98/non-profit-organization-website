@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,lightgrey,lightskyblue,lightgrey);/* Light background */
+    color: #333; /* Dark text */
+}
+
+header {
+    background-color:lightpink; /* Bootstrap blue */
+    color: black; /* White text */
+    text-align: center;
+    padding: 20px 0; /* Padding for header */
+}
+
+header img {
+    max-width: 300px; /* Limit image size */
+    margin: 15px 0; /* Spacing around the image */
+}
+
+nav ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Inline navigation items */
+    margin: 0 15px; /* Spacing between items */
+}
+
+nav ul li a {
+    color:black; /* White links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* About Section */
+.about {
+    background-color: lightcyan; /* Light blue background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    max-width: 600px; /* Max width */
+    margin: 20px auto; /* Centering */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text */
+}
+
+.about h2 {
+    font-size: 2rem; /* Heading size */
+    color:black; /* Match header color */
+}
+
+.about p {
+    font-size: 1.2rem; /* Paragraph size */
+    color: #3a3636; /* Medium gray */
+    line-height: 1.6; /* Line spacing */
+}
+
+/* Donate Section */
+.donate {
+    background-color:lightgrey; /* Blanched Almond background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    max-width: 600px; /* Max width */
+    margin: 20px auto; /* Centering */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text */
+}
+
+.donate h2 {
+    font-size: 2rem; /* Heading size */
+    color: black; /* Chocolate color */
+}
+
+.donate p {
+    font-size: 1.2rem; /* Paragraph size */
+    color:#3a3636 ; /* Dark text */
+}
+
+.donate button {
+    background-color:palevioletred; /* Button color */
+    color: black; /* Button text color */
+    border:none; /* Remove border */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 1.2rem; /* Button font size */
+}
+
+.donate button:hover {
+    background-color: palevioletred; /* Darker blue on hover */
+}
+
+/* Updates Section */
+.updates {
+    background-color:lightcyan; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    max-width: 600px; /* Max width */
+    margin: 20px auto; /* Centering */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text */
+}
+
+.updates h2 {
+    font-size: 2rem; /* Heading size */
+    color: black; /* Success green */
+}
+
+.updates p {
+    font-size: 1.2rem; /* Paragraph size */
+    color: #3a3636; /* Medium gray */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding */
+    background-color: lightpink; /* Header color */
+    color: black; /* White text */
+    position: relative; /* Positioning for footer */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
